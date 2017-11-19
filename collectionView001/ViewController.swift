@@ -30,10 +30,21 @@ extension ViewController: UICollectionViewDataSource {
         // get a reference to our storyboard cell
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! MyCollectionViewCell
         
-        // Use the outlet in our custom class to get a reference to the UILabel in the cell
-        cell.myLabel.text = self.items[indexPath.item]
-        cell.backgroundColor = UIColor.cyan // make cell more visible in our example project
+//        // make the image circular
+//        if let imageView = cell.imageView {
+//            imageView.contentMode = .scaleAspectFit
+//            imageView.clipsToBounds = true
+//            imageView.layer.cornerRadius = imageView.frame.width / 2
+//        }
         
+        cell.layer.borderColor = UIColor.black.cgColor
+        cell.layer.borderWidth = 1
+        cell.layer.cornerRadius = 50
+        
+        // Use the outlet in our custom class to get a reference to the UILabel in the cell
+//        cell.myLabel.text = self.items[indexPath.item]
+        cell.backgroundColor = UIColor.cyan // make cell more visible in our example project
+
         return cell
     }
 }
