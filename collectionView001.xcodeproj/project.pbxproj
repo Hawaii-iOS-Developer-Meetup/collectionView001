@@ -14,6 +14,7 @@
 		6396E4A51FC15C8D009425A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6396E4A31FC15C8D009425A2 /* LaunchScreen.storyboard */; };
 		6396E4B01FC15C8E009425A2 /* collectionView001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396E4AF1FC15C8E009425A2 /* collectionView001Tests.swift */; };
 		6396E4BB1FC15C8E009425A2 /* collectionView001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396E4BA1FC15C8E009425A2 /* collectionView001UITests.swift */; };
+		6396E4C91FC15CD2009425A2 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396E4C81FC15CD2009425A2 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6396E4B61FC15C8E009425A2 /* collectionView001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionView001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6396E4BA1FC15C8E009425A2 /* collectionView001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionView001UITests.swift; sourceTree = "<group>"; };
 		6396E4BC1FC15C8E009425A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6396E4C81FC15CD2009425A2 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				6396E49A1FC15C8D009425A2 /* AppDelegate.swift */,
+				6396E4C81FC15CD2009425A2 /* MyCollectionViewCell.swift */,
 				6396E49C1FC15C8D009425A2 /* ViewController.swift */,
 				6396E49E1FC15C8D009425A2 /* Main.storyboard */,
 				6396E4A11FC15C8D009425A2 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				6396E49D1FC15C8D009425A2 /* ViewController.swift in Sources */,
 				6396E49B1FC15C8D009425A2 /* AppDelegate.swift in Sources */,
+				6396E4C91FC15CD2009425A2 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
